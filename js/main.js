@@ -51,11 +51,11 @@ $(document).ready(function(){
     autoplay: true,
     rtl: true,
     loop: true,
-    nav: true,
+    nav: false,
     margin:25,
     items: 1,
     dots:true,
-    navText: ['<i class="las la-arrow-right"></i>','<i class="las la-arrow-left"></i>'],
+
 
 });
   $('.owl-select').owlCarousel({
@@ -63,7 +63,7 @@ $(document).ready(function(){
     rtl: true,
     margin:25,
     loop:true,
-    nav: true,
+    nav: false,
     dots:true,
     responsive: {
         0: {
@@ -79,10 +79,10 @@ $(document).ready(function(){
             items: 3   
         },
         1199: {
-            items: 4
+            items: 5
         },
         1200: {
-            items: 4
+            items: 5
         }
     },
     navText: ['<i class="las la-arrow-right"></i>','<i class="las la-arrow-left"></i>'],
@@ -93,7 +93,7 @@ $(document).ready(function(){
     rtl: true,
     margin:25,
     loop:true,
-    nav: true,
+    nav: false,
     dots:true,
     responsive: {
         0: {
@@ -112,7 +112,7 @@ $(document).ready(function(){
             items: 4
         },
         1200: {
-            items: 4
+            items: 5
         }
     },
     navText: ['<i class="las la-arrow-right"></i>','<i class="las la-arrow-left"></i>'],
