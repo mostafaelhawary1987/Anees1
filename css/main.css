@@ -1021,8 +1021,8 @@ html[dir="ltr"] .nav-head {    left: 0;
   border-radius: 20px;
   display: flex;
   justify-content: center;
-  height: 140px;
-  width: 24%;
+  height: 120px;
+  width: 15%;
   margin: 0;
   margin-bottom: 15px;
   -webkit-transition: 0.5s ease;
@@ -1051,7 +1051,7 @@ html[dir="ltr"] .nav-head {    left: 0;
 }
     .prod-title span{
       display: block;
-      font-size: 29px;
+      font-size: 21px;
       font-weight: 600;
       color: var(--main-color);
     }   .prod-title{display: flex;
@@ -1209,6 +1209,8 @@ html[dir="ltr"] .nav-head {    left: 0;
   }
   .banner-one img{
     aspect-ratio: 16 / 6;
+    min-width: 100%;
+    height: 70vh;
   }
   .banner-cover{
     position: absolute;
@@ -1463,7 +1465,7 @@ footer{
   margin-top: 25px;
 }
 .foot-title p{
-  width: 80%;
+  width: 59%;
   margin: auto;
   line-height: 1.9;
   color: var(--hover-color);
@@ -3495,7 +3497,7 @@ padding: 5px;
 }
 .stati-icon i {
   font-size: 60px;
-  color: var(--sec-color);
+  color: var(--main-color);
 }
 
 .statistics-number h4 {
@@ -3509,7 +3511,7 @@ padding: 5px;
 
 .statistics-number span {
   font-size: 24px;
-  color: var(--text-color);
+  color: var(--main-color);
   text-transform: capitalize;
   font-weight: 900;
 }
